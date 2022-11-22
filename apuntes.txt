@@ -1,0 +1,4 @@
+Diferencia entre Link y NavLink, Link se utiliza para 
+hacer una navegación como si fuera un anchor type <a heref="" />
+Navlink, es usado para eso mismo pero puede determinar
+si esta en la ruta.
