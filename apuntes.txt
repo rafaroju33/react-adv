@@ -1,3 +1,6 @@
+Instalar react router dom version 6
+yarn add react-router-dom@6
+
 Diferencia entre Link y NavLink, Link se utiliza para 
 hacer una navegación como si fuera un anchor type <a heref="" />
 Navlink, es usado para eso mismo pero puede determinar
