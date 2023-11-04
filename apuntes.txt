@@ -5,3 +5,14 @@ Diferencia entre Link y NavLink, Link se utiliza para
 hacer una navegación como si fuera un anchor type <a heref="" />
 Navlink, es usado para eso mismo pero puede determinar
 si esta en la ruta.
+
+
+LazyLoad
+
+Para trabajar con el Lazy load debemos de hacer que el componente se exporte por
+defecto.
+
+Hacer un Wraping del BroserRouter dentro el Suspense, el cual sirve para edcirle a react que 
+cuando es toy cargando un modulo/componente, hacer esperarlo pero por lo mientras
+has lo siguiente, por ejemplo: mostrar el span con el texto "Loading"
+<Suspense fallback={<span>Loading</span>}>
